@@ -23,7 +23,7 @@ body {
 
 .navbar-brand {
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 24px;
     color: #4C4C4C !important;
 }
 
@@ -41,10 +41,7 @@ li {
 
 .nav-link {
     color: #4C4C4C !important;
-}
-
-.nav-link:hover {
-    color: #914BD3 !important;
+    font-size: 14px;
 }
 
 .nav-link {
@@ -59,7 +56,7 @@ li {
   width: 70%;
   transform: scaleY(0);
   border-radius: 100px;
-  height: 4px;
+  height: 3px;
   bottom: 0;
   left: 0;
   background-color: #914BD3;
@@ -70,6 +67,7 @@ li {
 .nav-link:hover::after {
   transform: scaleY(1);
   transform-origin: bottom left;
+  color: #914BD3 !important;
 }
 
 .btn-round {
@@ -77,7 +75,10 @@ li {
     background-color: #914BD3;
     color: white;
 }
-
+.btn
+{
+    box-shadow: none !important;
+}
 .btn-round:hover {
     background-color: rgb(124, 67, 179);
     box-shadow: rgba(124, 67, 179, 0.25) 0px 6px 12px -2px, rgba(125, 67, 179, 0.301) 0px 3px 7px -3px;
@@ -94,7 +95,7 @@ h1 {
     border: 4px solid #914BD3;
     border-radius: 10px;
     color: #914BD3;
-    width: 35%;
+    width: 30%;
     float: left;
 }
 
