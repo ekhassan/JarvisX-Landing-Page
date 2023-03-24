@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.colors {
+    color: #F4fdfd;
+    color: #070e1f;
+    color: #c2c9ba;
+    color: #3244c8;
+    color: #434845;
+    color: #158FA3;
+    color: #98679C;
+    color: #F5d82d;
+    color: #914BD3;
+    color: #E8FBFB;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 22px;
+    color: #4C4C4C !important;
+}
+
+.navbar-brand span {
+    color: #914BD3;
+}
+
+button {
+    font-weight: bold !important;
+}
+
+li {
+    margin: 0 5% 0 5%;
+}
+
+.nav-link {
+    color: #4C4C4C !important;
+}
+
+.nav-link:hover {
+    color: #914BD3 !important;
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  transform: scaleY(0);
+  border-radius: 100px;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #914BD3;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleY(1);
+  transform-origin: bottom left;
+}
+
+.btn-round {
+    border-radius: 50px 50px 50px 50px !important;
+    background-color: #914BD3;
+    color: white;
+}
+
+.btn-round:hover {
+    background-color: rgb(124, 67, 179);
+    box-shadow: rgba(124, 67, 179, 0.25) 0px 6px 12px -2px, rgba(125, 67, 179, 0.301) 0px 3px 7px -3px;
+    color: white;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.hr {
+    border: 4px solid #914BD3;
+    border-radius: 10px;
+    color: #914BD3;
+    width: 35%;
+    float: left;
+}
+
+img {
+    border-radius: 10000px;
+    box-shadow: rgba(213, 255, 255, 0.411) 0px 0px 0px 60px;
+    width: 70%;
+    margin-left: 14%;
+}
+
+p {
+    font-weight: 600 !important;
+}
+
+.text {
+    letter-spacing: .15rem;
+    color: #a3a3a3;
+}
+
+.brand {
+    width: 50%;
+}
+
+.brand-line {
+    border: .1rem solid #a3a3a3;
+    width: 50%;
+}
+
+.fa-brands {
+    padding: 0 10px 0 10px;
+    font-size: 22px;
+}
+
+.fa-instagram {
+    color: #914BD3;
+    text-decoration: none;
+}
+
+.col-sm .btn-group {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 4%;
+}
+
+.btn-group {
+    border-radius: 100px;
+
+}
+
+.lt {
+    border-radius: 100px 0px 0px 100px !important;
+    background-color: #F4fdfd;
+}
+
+.md {
+    background-color: #F5d82d;
+}
+
+.rt {
+    border-radius: 0px 100px 100px 0px !important;
+    background-color: #F4fdfd;
+}
+
+.btn span {
+    font-size: 14px !important;
+    color: #777777;
+}
+
+.credit {
+    color: #914BD3;
+    transition: 300ms all ease;
+}
+
+.credit:hover {
+    color: #914BD3;
+}
+
+.cr {
+    font-size: 8px;
+}
+
+.fixed-bottom {
+    background-color: #070e1f;
+    height: 5%;
+}
